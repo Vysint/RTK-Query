@@ -1,9 +1,11 @@
 import "./App.css";
+import TodoList from "./features/todos/TodoList";
+
 
 function App() {
   return (
     <>
-      <div className="App">RTK Query</div>
+  <TodoList/>
     </>
   );
 }
